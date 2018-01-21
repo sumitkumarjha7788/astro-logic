@@ -1,0 +1,28 @@
+body{
+	background: rgba(120,0,0,0.8);
+	text-align: center;
+	font-family:arial;
+	font-size: 36px;
+	margin-top: 24px;
+	color: black;
+}
+#title{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 24px;
+	margin: 24px;
+	font-stretch: 24px;
+	font-family: ubuntu;
+	font-size: 48px;
+}
+.main{
+	background: rgba(0,0,0,0.8);
+	color: white;
+}
+.input{
+	margin-top: 20px;
+	padding: 10px auto;
+	shape-margin: circle;
+	border-radius: 30px;
+	border-color: rgba(0,120,0,0.9);
+}
