@@ -5,36 +5,30 @@
 		Astro-logic
 	</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="font-awesome.css">
 	<link href='main.css' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="container col-md-12">
 	<header>
 		<nav class="container-fluid">
-			<div id="midsection">
-				
-			</div>
+			<div></div>
 		</nav>
 	</header>
-
-
-	
-
-	<section class="wrapper container">
+	<section class="wrapper ">
 		<h1 id="title">Astro-Logic</h1>
-		<img class="entrance" id="welscr" height="300px" width="500px" alt="" src="C:\Users\Sumit Kumar Jha\Downloads\wallpapers\3-d-755a.jpg">
+		<img alt="Horoscope" class="entrance" src="">
 		<p class="entrance">enter your name to use this app</p>
 		<input class="entrance input" id="name-input" type="text" name=" Name " placeholder=" Name ">
-		<button class="entrance input btn-success" type="submit" value="Get-In"> Get-In </button>
+		<button class="entrance input btn-primary" type="submit"> Get-In </button>
 	</section>	
-	<div class="main hidden container"></div>
-	<input class="input main hidden" id="date" type="date" name="">
-	<button class="main hidden button" id="date-input" type="submit" name="date" placeholder="select-date"> info</button>
-
+	<div class="welcome-screen main container"></div>
+	<input class="input main hidden dates" id="datepicker" type="date">
+	<button class="main hidden btn btn-primary dates" id="dateinput" type="submit" name="date"> Submit</button>
+	<div class="user-info" id="getuser">
+		<div class="data" id="name_traits"></div>
+	</div>
 	<footer class="container-fluid">
-		
+		<marquee ><button class=" btn-warning"><a href="#"> Read your daily horoscope here.</a></button></marquee>
 	</footer>
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 </body>
-	
