@@ -14,6 +14,7 @@
 	font-stretch: condensed;
 	font-family: Comic Sans MS;
 	font-size: 48px;
+	transform: rotate(120);
 }
 .main{
 }
@@ -34,12 +35,11 @@
 
 }
 
-footer{
-	background-blend-mode: difference;
-	position: fixed;
-	bottom: 40px;
+.footer{
+	position: relative;
+	top: 40px;
 	width: 100%; 
-	height: 10px;
+	height: 4px;
 	font-size: smaller;
 }
 #name-traits{
